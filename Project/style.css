@@ -12,8 +12,7 @@ header, nav, main, footer {
 /* 1. Handling User Links */
 
 #user-links {
-    /*Don't forget to delete!*/
-    border:1px solid;
+   
     /*Takes off the bullet points*/
     list-style-type: none;
     /*Moves list to the right */
@@ -26,16 +25,12 @@ header, nav, main, footer {
     display: inline;
 
     position: relative;
-    /*Mine was different than your's so I did the opposite 
-    (You said to do left and bottom but it took out the images 
-    out and overlapping the words)*/
-    /*Changes paragraph position*/
+   
     right: 5px;
     top: 6px;
 }
 
-/*Remember to ask Jennifer that the code below didn't work */
-/*Puts all lists in one line*/
+
 .user-links-li {
     display: inline;
     /*Fix Spacing*/
@@ -64,3 +59,4 @@ nav a:hover {
     width:70%;
     border-radius:10%;
 }
+
